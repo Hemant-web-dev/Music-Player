@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="heading">
+        <img src="logo.png" alt="">
+        <h2 class="logo-name" style="color: rgb(42, 190, 65);">RhythmX</h2>
+    </div>
+    <div class="container">
+        <div class="list">
+            <div class="list-contain">
+                <div class="songs" data-audio="keep-on-moving-warm-up-268408.mp3">    
+                    <h2>Keep On Moving warm up</h2>
+                </div>
+                <div class="songs" data-audio="no-copyright-music-house-321111.mp3">
+                    <h2>no-copyright-music-house</h2>
+                </div>
+                <div class="songs" data-audio="cinematic.mp3">
+                    <h2>cinematic.mp3</h2>
+                </div>
+                <div class="songs" data-audio="soft music.mp3">
+                    <h2>soft music.mp3</h2>
+                </div>
+                <div class="songs" data-audio="ana-mathew.mp3">
+                    <h2>ana-mathew.mp3</h2>
+                </div>
+                <div class="songs" data-audio="asphalt-sizzle-322468.mp3">
+                    <h2>asphalt-sizzle-322468.mp3</h2>
+                </div>
+                
+            </div>
+        </div>
+        <div class="player">
+            <div class="player-contain">
+                <div class="gif">
+                    <img src="gif.webp" alt="" srcset="">
+                </div>
+                <div class="song-name">Welcome to Rythmx music player</div>
+                <audio src="" class="player-song" > </audio>
+                <div class="buttons">
+                    <button class="prev"><i class="fa-solid fa-circle-arrow-left"></i></button>
+                    <button class="play"><i class="fa-solid fa-pause"></i></button>
+                    <button class="next"><i class="fa-solid fa-circle-arrow-right"></i></button>
+                    <button class="shuffle"><i class="fa-solid fa-shuffle"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>    
+</body>
+</html>
