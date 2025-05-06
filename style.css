@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+color:rgba(234, 237, 235, 0.866);
+font-size: 3.4vmin;
+}
+body{
+    background-image: url(guitar.jpg);
+}
+img{
+    height: 6vmin;
+    width: 6vmin;
+    border-radius: 2rem;
+}
+.heading{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    /* background-color: aliceblue; */
+}
+.logo-name{
+    font-size: 5vmin;
+    margin-top: 0.2vmin;
+    margin-left: 2vmin;
+    font-family: "Tektur";
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.list{
+    /* background-color: rgb(211, 151, 73); */
+    height: 95vh;
+    width: 50vw;
+    padding: 0.9vmin;
+    margin: 1rem;
+    
+}
+.player{
+    /* background-color: aqua; */
+    height: 95vh;
+    width: 50vw;
+    padding: 0.9vmin;
+    margin: 1rem;
+   
+}
+.list-contain{
+    /* background-color: beige; */
+    height: 90%;
+    width: 90%;
+    border: 0.2vmin solid white;
+    padding: 3vmin;
+    border-radius: 1rem;
+}
+.player-contain{
+    height: 90%;
+    width: 100%;
+    border: 0.2vmin solid white;
+    padding: 1vmin;
+    border-radius: 1rem;
+}
+#song1{
+  display: none;
+}
+audio{
+    display: none;
+}
+.songs{
+    padding: 1vmin;
+    border: 0.2vmin solid white;
+    border-radius: 1vmin;
+    /* background-image: url(songs-back.jpeg);  */
+    background-size: cover;
+    margin-bottom: 1rem;
+    /* transition: all 2s ease-in-out; */
+}
+.songs:hover{
+    cursor: pointer;
+    background-image: url(songs-back.jpeg) ;
+    /* background-image: none; */
+}
+
+.gif{
+    margin: 2rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    /* background-color: aqua; */
+}
+.gif img{
+    /* visibility: hidden; */
+    height: 30vmin;
+    width: 30vmin;
+}
+.song-name{
+    background-color: rgb(255, 255, 255) ;
+    background: rgb(255 255 255 /0.3);
+    height: 10vmin;
+    display: flex;
+    border-radius: 2vmin;
+    font-size: 2.4vmin;
+    padding: 2vmin;
+    align-content: center;
+}
+.buttons {
+    /* background-color: aquamarine; */
+    height: 6vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.buttons button{
+    margin-top: 3vmin;
+    height: 5vmin;
+    width:5vmin ;
+    background: none;
+    border: none;
+    
+}
+.buttons i{
+    color: rgb(244, 241, 241);
+    font-size: 3vmin;
+}
+.buttons i:hover{
+    font-size: 3.2vmin;
+}
+.range{
+    display: flex;
+    justify-content: center;
+}
+.shuffle {
+    color: grey;
+}
+
